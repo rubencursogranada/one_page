@@ -1,0 +1,190 @@
+body{
+	background-color:Black;
+	color:white;
+	fontfamily:seoge ui;
+}
+
+header{
+	text-aligne:center;
+	background-image:url('taller1.jpg');
+	background-position:right;
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin:0;
+	height:100vh;
+	color:white;
+
+}
+
+a{
+  color:#eeeee4;;
+  text-decoration:none;
+}
+
+ ul{
+	text-align:center;
+	display:inline-block;
+	position:fixed;
+	margin-left:20%;
+	padding-left:3%;
+
+}
+
+  li{
+  font-family:Segoe UI;
+  list-style:none;
+  display:inline-block;
+  border:2px solid rgba(255, 255, 255, 0.18);
+  padding:5px 40px;
+  backdrop-filter:blur(5px);  
+  margin-top:5px;
+  margin-bottom:8; 
+  background-color:rgba(0, 0, 0, 0.3);
+  border-radius:18px 18px;
+  box-shadow:5px 5px 12px red;
+  
+
+}
+
+
+
+
+
+  li:hover{
+  list-style:none;
+  display:inline-block;
+  border:2px solid #rgba(255, 255, 255, 0.18);
+  padding:5px 40px;
+  backdrop-filter:blur(8px);  
+  background-color:#ae0303;
+  box-shadow:8px 8px 12px #39ff14;
+}
+
+
+
+ main{
+		color:white;
+
+}
+
+
+
+img[alt="miLogo"]{
+	margin-top:150;
+	padding:150;
+	
+}
+
+section#ancla_inicio{
+	margin-left:15%;
+	margin-right:15%;
+
+}
+
+h1 {
+	font-size:65px;
+	padding:3%;
+  text-align: center;
+}
+
+img#foto_inicio{
+	padding-left:4%;
+	margin-right:30%;
+}
+p{
+	padding:2%;
+	font-size:25px;
+	font-family:sans-sherif;
+}
+
+img#foto_nosotros{
+	padding-left:5%;
+}
+
+article{
+	margin-left:15%;
+	margin-right:15%;
+}
+
+td{
+	width:50%;
+	background-color:#ae0303;
+	box-shadow:8px 8px 12px #39ff14;
+
+
+}
+
+a#boton{
+	margin left:40%;
+	padding:5px;
+	border:2px solid red;
+	justify-content: center;
+	border-radius:18px 18px;
+  box-shadow:5px 5px 12px red;
+}
+
+div#boton_contacto{
+	    margin-left: 47%;
+
+}
+
+table{
+	margin-left:4%;
+}
+
+
+
+#ancla_podcast {
+  text-align: center; /* Centra los divs inline-block */
+  border:2px dotted red;
+  margin-left:15%;
+  margin-right:15%;
+  padding-bottom:2%;
+}
+
+form#formulario_contacto input{
+	margin left:40%;
+	display:block;
+	}
+
+
+
+	div.contacto > p{
+				font-size:12px;
+				border:2px solid #39ff14 ;
+				margin-left:35%;
+				margin-right:35%;
+				text-aligne:center;
+				padding:10px;
+	}
+
+	#mapa{
+
+		text-align:center;
+		padding:20px;
+	}
+
+	div.redes{
+		margin-left:35%;
+		margin right_right:45;
+		width:300;
+		margin-bottom:20px;
+	}
+
+	div.formulario{
+		width:200px;
+		margin-left:45%;
+		border:2px solid #39ff14;
+		padding:8px;
+	}
+
+	marquee{
+		width:600px;
+		margin-left:35%;
+	}
+
+	footer p{
+
+		margin-left:40%;
+		font-size:small;
+	}
